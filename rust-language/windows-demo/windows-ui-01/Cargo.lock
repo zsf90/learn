@@ -3,13 +3,6 @@
 version = 3
 
 [[package]]
-name = "demo"
-version = "0.1.0"
-dependencies = [
- "windows",
-]
-
-[[package]]
 name = "windows"
 version = "0.38.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -20,6 +13,13 @@ dependencies = [
  "windows_i686_msvc",
  "windows_x86_64_gnu",
  "windows_x86_64_msvc",
+]
+
+[[package]]
+name = "windows-ui-01"
+version = "0.1.0"
+dependencies = [
+ "windows",
 ]
 
 [[package]]
